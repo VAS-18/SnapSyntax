@@ -176,10 +176,7 @@ function App() {
           
           </div>
         </div>
-        <div className="Text">
-            <div className="trans">
-              Start
-            </div>
+        <div>
       </div>
     </>
   );
