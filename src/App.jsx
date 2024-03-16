@@ -7,16 +7,17 @@ function App() {
 
   return (
     <>
-      <div className="Page1 bg-[#E7E6AD]">
+      <div className="Page1 bg-[#ACE4E3]">
         <div className="flex h-screen">
           <div className="translate-x-[600px] translate-y-[350px] font-bold">
-            <h1>WORLD</h1>
+            <h1 className="text-7xl">World</h1>
           </div>
         </div>
-        <div className="flex translate-x-[700px] translate-y-[-460px]">
+
+        <div className="flex translate-x-[820px] translate-y-[-460px] text-7xl font-bold">
           Suicide
         </div>
-        <div className="flex translate-x-[640px] translate-y-[-460px]">
+        <div className="flex translate-x-[940px] translate-y-[-450px] text-7xl font-bold">
           <h1>Prevention</h1>
         </div>
         <div className="">
@@ -27,7 +28,7 @@ function App() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-10 h-10"
+              className="w-12 h-12"
             >
               <path
                 strokeLinecap="round"
@@ -37,12 +38,67 @@ function App() {
             </svg>
           </div>
         </div>
+        <div className="Date">
+          <div className="flex translate-x-[740px] translate-y-[-680px] text-3xl font-">
+            10 September 2023 IS
+          </div>
+        </div>
+
+        <div className="g1">
+          <div className="">
+            <p className="translate-y-[-1000px] mx-10 mt-7 font-bold ">
+              How Many
+              <br />
+              do we lose everyday?
+            </p>
+          </div>
+        </div>
+        <div className="g2">
+          <div className="">
+            <p className="translate-y-[-1072px] translate-x-[1400px] mx-10 mt-7 font-bold ">
+              How Many
+              <br />
+              do we lose each week?
+            </p>
+            <p className="translate-y-[-1000px] mx-10"></p>
+          </div>
+        </div>
+        <div className="g1">
+          <div className="">
+            <p className="translate-y-[-525px] mx-10 mt-7 font-bold">
+              How Many
+              <br />
+              do we lose each year?
+            </p>
+            <p className="translate-y-[-1000px] mx-10"></p>
+          </div>
+        </div>
+        <div className="g1">
+          <div className="">
+            <p className="translate-y-[-600px] translate-x-[1400px] mx-10 mt-7 font-bold">
+              How common
+              <br />
+              are suicidal thoughts?
+            </p>
+            <p className="translate-y-[-1000px] mx-10"></p>
+          </div>
+        </div>
       </div>
       <div className="Page2 bg-[#0B4350] h-screen">
         <div className="Heading">
-          <div className="">
-            <h1>LETS BURST SOME</h1>
-            <h1>MYTHS TODAY</h1>
+          <div className="flex items-start p-5 text-6xl font-extrabold text-[#f58bcf]">
+            <h1>
+              LETS BURST SOME
+              <br />
+              Myths Surrounding
+              <br />
+              Suicide ...
+            </h1>
+          </div>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="mt-[500px] text-[#f58bcf] text-xl font-semibold">
+            -THE MYTHS-
           </div>
         </div>
       </div>
@@ -95,12 +151,35 @@ function App() {
           </svg>
         </div>
       </div>
-      <div className="Page4">
-        <div className="">
-          <div className="">
-            
+      <div className="Page4 h-screen bg-[#f58bcf]">
+        <div className="flex items-center justify-center">
+          <svg
+            className="mt-[200px]"
+            width="789"
+            height="395"
+            viewBox="0 0 789 395"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M369 390L686.5 260.5L782 73L357 136L102.5 6.5L7.5 189.5"
+              stroke="#003E29"
+            />
+            <circle cx="102.5" cy="6.5" r="6.5" fill="#003E29" />
+            <circle cx="6.5" cy="191.5" r="6.5" fill="#003E29" />
+            <circle cx="359.5" cy="136.5" r="6.5" fill="#003E29" />
+            <circle cx="685.5" cy="260.5" r="6.5" fill="#003E29" />
+            <circle cx="372.5" cy="388.5" r="6.5" fill="#003E29" />
+            <circle cx="782.5" cy="73.5" r="6.5" fill="#003E29" />
+          </svg>
+
+          
           </div>
         </div>
+        <div className="Text">
+            <div className="trans">
+              Start
+            </div>
       </div>
     </>
   );
